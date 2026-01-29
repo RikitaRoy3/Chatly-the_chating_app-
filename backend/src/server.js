@@ -38,23 +38,22 @@ app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
 
 
+
+
+
+
+
+
+
 // if (ENV.NODE_ENV === "production") {
-//   app.use(express.static(path.join(__dirname,"../frontend/dist")));
+//   app.use(express.static(path.join(__dirname, "../frontend/Chatly/dist")));
+
+//   app.get("*", (_, res) => {
+//     res.sendFile(
+//       path.join(__dirname, "../frontend/Chatly/dist/index.html")
+//     );
+//   });
 // }
-// app.get("*", (_, res) => {
-//    res.sendFile(path.join(__dirname,"../frontend/dist/index.html"));
-// });
-
-
-if (ENV.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "../frontend/Chatly/dist")));
-
-  app.get("*", (_, res) => {
-    res.sendFile(
-      path.join(__dirname, "../frontend/Chatly/dist/index.html")
-    );
-  });
-}
 
 
 
