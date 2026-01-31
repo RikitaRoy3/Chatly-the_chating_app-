@@ -583,7 +583,7 @@ import { toast } from "sonner";
 import { io, Socket } from "socket.io-client";
 
 
-  // import.meta.env.MODE === "development" ? "http://localhost:3000" : "/";
+  // const BASE_URL= import.meta.env.MODE === "development" ? "http://localhost:8080" : "/";
 const BASE_URL= import.meta.env.VITE_API_URL;
 
 interface User {

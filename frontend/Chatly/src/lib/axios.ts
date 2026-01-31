@@ -9,7 +9,7 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-  baseURL: import.meta.env.VITE_API_URL ,
+  baseURL:  import.meta.env.VITE_API_URL,
   withCredentials: true,   // 🔥 THIS IS REQUIRED
 });
 

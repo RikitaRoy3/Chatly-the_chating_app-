@@ -44,10 +44,6 @@ app.use("/", (req, res) => {
 
 
 
-
-
-
-
 // if (ENV.NODE_ENV === "production") {
 //   app.use(express.static(path.join(__dirname, "../frontend/Chatly/dist")));
 
@@ -57,9 +53,6 @@ app.use("/", (req, res) => {
 //     );
 //   });
 // }
-
-
-
 
 
 
