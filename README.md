@@ -4,7 +4,7 @@ A clean, modern web application built with **Vite + React** on the frontend and 
 
 ---
 
-🔗 **Live Deployment:**  
+🔗 **Live Deployment:**  🚀
 
 https://chatly-black-one.vercel.app
 
