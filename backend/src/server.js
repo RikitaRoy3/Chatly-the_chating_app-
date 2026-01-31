@@ -38,7 +38,7 @@ app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
 
 app.use("/", (req, res) => {
-  res.send("API is running...");
+  res.send("API is running...");//This should be at the last route...otherwise other routes below this won't work.
 });
 
 
