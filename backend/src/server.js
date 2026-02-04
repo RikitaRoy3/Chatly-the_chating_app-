@@ -30,7 +30,7 @@ const __dirname = path.resolve();
 app.use(express.json({ limit: "10mb" }));
 app.use(express.urlencoded({ extended: true, limit: "10mb" }));// This will prevent PayloadTooLargeError(This means request of size upto 10mb can come from the frontend)
 app.use(cors({
-  origin:"https://chatly-black-one.vercel.app", credentials: true
+  origin:"https://chatlychatapp.vercel.app", credentials: true
 }));
 
 // This will allow these frontends to talk to our backend with credentials..and will also allow cookies to be received by this very frontends in case my backend is running on some diffrent domain or https.
