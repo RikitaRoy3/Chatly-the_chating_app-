@@ -81,5 +81,3 @@ Chaly/
 * Node.js & Express ecosystem
 
 ---
-
-Made with ❤️ for learning and building cool things.
