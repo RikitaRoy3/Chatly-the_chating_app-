@@ -75,7 +75,7 @@ Chatly/
 
 ---
 
-## 🙌 Acknowledgements
+##  Acknowledgements 🎀
 
 * React & Vite community
 * Node.js & Express ecosystem
