@@ -5,7 +5,6 @@ A clean, modern web application built with **Vite + React** on the frontend and 
 ---
 
 🔗 **Live Deployment:**  🚀
-
 👉 https://chatly-black-one.vercel.app
 
 ---
@@ -13,10 +12,10 @@ A clean, modern web application built with **Vite + React** on the frontend and 
 ## ✨ Features
 
 * ⚡ Fast frontend powered by **Vite + React**
-* 🔐 Authentication-ready backend (JWT-based)
-* 🌐 REST API architecture
-* 🎨 Responsive and modern UI
-* 🧩 Clean project structure (frontend + backend separated)
+* 🔐 Authentication-ready backend (JWT-based).
+* 🌐 REST API architecture.
+* 🎨 Responsive and modern UI.
+* 🧩 Clean project structure (frontend + backend separated).
 * 🛠️ Easy to extend and customize.
 
 ---
